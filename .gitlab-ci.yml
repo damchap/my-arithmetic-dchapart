@@ -9,3 +9,7 @@ test:
         - echo "Lancement des tests"
         - tox
         - echo "Fin des tests"
+
+    tags:
+        - docker
+    image: python:3.8
