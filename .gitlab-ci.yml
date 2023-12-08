@@ -1,0 +1,11 @@
+# ecrire les commandes pour lancer les tests
+stages:
+  - master
+  - develop
+
+test:
+    stage: master
+    script:
+        - echo "Lancement des tests"
+        - tox
+        - echo "Fin des tests"
