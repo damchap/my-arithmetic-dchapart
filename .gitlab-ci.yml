@@ -7,5 +7,5 @@ test:
     stage: master
     script:
         - echo "Lancement des tests"
-        - tox
+        - tox 
         - echo "Fin des tests"
