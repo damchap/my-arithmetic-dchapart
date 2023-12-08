@@ -1,8 +1,6 @@
 # ecrire les commandes pour lancer les tests
 stages:
   - master
-  - develop
-
 test:
     stage: master
     script:
